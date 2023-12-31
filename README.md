@@ -20,7 +20,7 @@ https://aofusa.github.io/ocr-chatgpt-app/
 1. リポジトリをクローン:
 
 ```bash
-git clone https://github.com/your-username/ocr-chatgpt-app.git
+git clone https://github.com/aofusa/ocr-chatgpt-app.git
 cd ocr-chatgpt-app
 npm install
 ```
