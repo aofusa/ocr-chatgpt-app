@@ -17,7 +17,7 @@ https://aofusa.github.io/ocr-chatgpt-app/
 
 ### インストール
 
-リポジトリをクローン:
+1. リポジトリをクローン:
 
 ```bash
 git clone https://github.com/your-username/ocr-chatgpt-app.git
@@ -25,16 +25,22 @@ cd ocr-chatgpt-app
 npm install
 ```
 
-
-### 使用方法
-
-1. 開発サーバーを起動:
+2. 開発サーバーを起動:
 
 ```bash
 npm run dev
 ```
 
-2. ブラウザを開いて http://localhost:5173 にアクセスします。
+3. ブラウザを開いて http://localhost:5173 にアクセスします。
+
+
+### 使用方法
+
+1. ChatGPT の API_KEY を取得し画面上より設定します
+2. 画像ファイルをアップロードして、Tesseract OCR でテキストを抽出します。
+3. テキストを編集し、「ChatGPTに送信」ボタンをクリックして ChatGPT に送信します。
+4. ChatGPT からのレスポンスが表示されます。
+
 
 
 ### 設定
