@@ -1,7 +1,9 @@
 # ChatGPT + Tesseract.js アプリ
 
 
-このウェブアプリケーションは、ChatGPTとTesseract.jsの力を組み合わせたものです。ユーザーは画像をアップロードし、Tesseract OCRを使用してテキストを抽出し、抽出されたテキストを編集してからChatGPTに送信できます。
+このウェブアプリケーションは、ChatGPTとTesseract.jsの力を組み合わせたものです。ユーザーは画像をアップロードし、Tesseract OCRを使用してテキストを抽出し、抽出されたテキストを編集してからChatGPTに送信できます。  
+公開されているアプリはこちら。  
+https://aofusa.github.io/ocr-chatgpt-app/
 
 
 ## 特徴
