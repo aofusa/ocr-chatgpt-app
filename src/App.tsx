@@ -138,6 +138,26 @@ const App: React.FC = () => {
           <div className="p-2 border rounded">{chatGptResponse}</div>
         </div>
       )}
+
+      {/* 利用手順の説明文 */}
+      <div className="mt-8">
+        <h2 className="text-2xl font-semibold mb-4">使い方</h2>
+        <ol className="list-decimal pl-5">
+          <li>
+            <strong>APIキーの設定:</strong> OpenAIプラットフォームからAPIキーを取得し、画面上部の「Enter API Key」欄に入力します。APIキーの取得方法はOpenAI公式サイトを参照してください。
+          </li>
+          <li>
+            <strong>画像ファイルのアップロード:</strong> 「Upload Image」セクションで、テキストを抽出したい画像ファイルを選択します。
+            選択された画像は画面に表示され、Tesseract OCRが自動的に実行されてテキストが抽出されます。
+          </li>
+          <li>
+            <strong>テキストの編集とChatGPTへの送信:</strong> OCRで抽出されたテキストは「OCR Text」セクションに表示されます。テキストを必要に応じて編集し、「Submit to ChatGPT」ボタンをクリックしてChatGPTに送信します。
+          </li>
+          <li>
+            <strong>ChatGPTからのレスポンスの表示:</strong> ChatGPTからのレスポンスは「ChatGPT Response」セクションに表示されます。ChatGPTの回答を確認し、必要に応じて再編集や他の操作を行います。
+          </li>
+        </ol>
+      </div>
     </div>
   );
 };
